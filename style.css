@@ -1,11 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
+h1, h2, h3, h4, h5, h6, p, blockquote {
     margin: 0;
     padding: 0;
 }
@@ -36,12 +29,7 @@ p {
     margin-bottom: 12px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #404040;
     line-height: 36px;
 }
@@ -90,7 +78,7 @@ hr {
 blockquote {
     padding: 2px 13px 21px 2px;
     margin-bottom: 12px;
-    font-family: georgia,serif;
+    font-family: georgia, serif;
     font-style: italic;
 }
 
@@ -98,7 +86,7 @@ blockquote:before {
     content: "\201C";
     font-size: 40px;
     margin-left: -10px;
-    font-family: georgia,serif;
+    font-family: georgia, serif;
     color: #eee;
 }
 
@@ -168,7 +156,6 @@ ul li ul a {
     }
 }
 
-
 table {
     margin: 10px auto;
 }
@@ -209,7 +196,7 @@ tbody tr:nth-child(odd) {
     background: #eee
 }
 
-td,th {
+td, th {
     border-left: 1px solid #cbcbcb;
     border-width: 0 0 0 1px;
     font-size: inherit;
